@@ -37,8 +37,6 @@ public class Monitoramento {
     }
 
     private Indicadores calcularIndicadores(List<Meta> metas) {
-        // Lógica para calcular os indicadores com base nas metas
-        // Implemente o cálculo dos indicadores de acordo com as metas específicas
 
         return new Indicadores();
     }

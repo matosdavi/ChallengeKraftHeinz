@@ -4,8 +4,6 @@ import java.util.List;
 
 public class Indicadores {
 
-    private double indicador1;
-    private double indicador2;
     private int totalMetas;
     private int metasAlcancadas;
     private int metasNaoAlcancadas;
@@ -15,12 +13,7 @@ public class Indicadores {
     public Indicadores() {
     }
 
-    public Indicadores(int indicador1, int indicador2) {
-        this.indicador1 = indicador1;
-        this.indicador2 = indicador2;
-    }
-
-    private Indicadores calcularIndicadores(List<Meta> metas) {
+    public Indicadores calcularIndicadores(List<Meta> metas) {
         int totalMetas = metas.size();
         int metasAlcancadas = 0;
         int metasNaoAlcancadas = 0;
